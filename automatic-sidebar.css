@@ -1,0 +1,26 @@
+[data-sidebar="container"] {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.35);
+    z-index: 5;
+}
+[data-sidebar="content"]{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background: #FFF;
+    width: 85vh;
+    padding: 36px;
+    height: 100%;
+    -webkit-box-shadow: -4px 0 16px rgba(0,0,0,.15);
+    box-shadow: -4px 0 16px rgba(0,0,0,.15);
+}
