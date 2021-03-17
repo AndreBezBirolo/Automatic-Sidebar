@@ -1,5 +1,7 @@
 # Automatic Sidebar
 
+![Demonstração](https://github.com/AndreBezBirolo/Automatic-Sidebar/blob/main/demo.gif "Visão do projeto")
+
 O projeto "Automatic Sidebar" foi desenvolvido por André J. Bez Birolo com um intuito de tornar a vida do desenvolvedor
 mais fácil e não precisar mais se estressar com javascript.
 
