@@ -85,6 +85,7 @@ events all* e *opacity 1* quando está visível.
     height: 100%;
     background: rgba(0,0,0,.35);
     z-index: 5;
+    transition: all .2s linear;
 }
 [data-sidebar="content"]{
     -webkit-box-sizing: border-box;
@@ -94,11 +95,12 @@ events all* e *opacity 1* quando está visível.
     top: 0;
     z-index: 10;
     background: #FFF;
-    width: 85vh;
+    width: 85vw;
     padding: 36px;
     height: 100%;
     -webkit-box-shadow: -4px 0 16px rgba(0,0,0,.15);
     box-shadow: -4px 0 16px rgba(0,0,0,.15);
+    transition: all .2s linear;
 }
 ```
 
