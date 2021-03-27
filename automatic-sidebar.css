@@ -9,6 +9,7 @@
     height: 100%;
     background: rgba(0,0,0,.35);
     z-index: 5;
+    transition: all .2s linear;
 }
 [data-sidebar="content"]{
     -webkit-box-sizing: border-box;
@@ -23,4 +24,5 @@
     height: 100%;
     -webkit-box-shadow: -4px 0 16px rgba(0,0,0,.15);
     box-shadow: -4px 0 16px rgba(0,0,0,.15);
+    transition: all .2s linear;
 }
