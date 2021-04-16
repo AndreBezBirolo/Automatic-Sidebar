@@ -101,6 +101,7 @@ events all* e *opacity 1* quando está visível.
     -webkit-box-shadow: -4px 0 16px rgba(0,0,0,.15);
     box-shadow: -4px 0 16px rgba(0,0,0,.15);
     transition: all .2s linear;
+    overflow: auto;
 }
 ```
 
